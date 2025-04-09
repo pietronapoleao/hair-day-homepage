@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hair Day - Bold Colors & Modern Cuts</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="assets/images/favicon.png">
+</head>
+<body>
+    <header class="main-header">
+        <img src="assets/images/hair-day-white.png" alt="Hair Day Logo" class="logo">
+        <button class="mobile-menu-toggle" aria-label="Toggle navigation">
+            <i class="fas fa-bars"></i>
+        </button>
+        <nav class="main-nav">
+            <ul class="nav-list">
+                <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+                <li class="nav-item"><a href="#services" class="nav-link">Services</a></li>
+                <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+                <li class="nav-item"><a href="#booking" class="nav-link">Booking</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="main-content">
+        <section class="hero-section">
+            <div class="hero-content">
+                <h1 class="hero-title">Bold Colors & Modern Cuts</h1>
+                <p class="hero-text">Book your exclusive coloring session today!</p>
+                <button class="cta-button">Book Now</button>
+            </div>
+        </section>
+
+        <section id="services" class="services-section">
+            <h2 class="section-title">Our Services</h2>
+            <div class="services-grid">
+                <article class="service-card">
+                    <img src="assets/images/color-specialist.jpg" alt="Hair Coloring" class="service-image">
+                    <h3 class="service-title">Color Specialist</h3>
+                    <p class="service-description">Bold, personalized hair coloring techniques using premium products that last longer and shine brighter.</p>
+                </article>
+                <article class="service-card">
+                    <img src="assets/images/modern-cuts.jpg" alt="Hair Cutting" class="service-image">
+                    <h3 class="service-title">Modern Cuts</h3>
+                    <p class="service-description">Trendy styles tailored for your face shape and lifestyle, with precision cutting techniques.</p>
+                </article>
+                <article class="service-card">
+                    <img src="assets/images/makeup-nails.jpg" alt="Makeup & Nails" class="service-image">
+                    <h3 class="service-title">Makeup & Nails</h3>
+                    <p class="service-description">Complete beauty experience with professional makeup application and nail art services.</p>
+                </article>
+            </div>
+        </section>
+
+        <section id="about" class="about-section">
+            <h2 class="section-title">About Us</h2>
+            <div class="about-content">
+                <p class="about-text">Founded in 2020 by Pria and Garry in Madison, WI, Hair Day specializes in edgy color techniques and modern cuts in a boutique atmosphere. Our mission is to provide exceptional service while creating looks that enhance your natural beauty and reflect your personal style.</p>
+                
+                <div class="founders-container">
+                    <div class="founder-card">
+                        <img src="assets/images/woman.jpg" alt="Pria - Color Specialist" class="founder-image">
+                        <div class="founder-info">
+                            <h3 class="founder-name">Pria</h3>
+                            <p class="founder-role">Color Specialist</p>
+                            <p class="founder-bio">With 10+ years of experience, Pria specializes in balayage, vivid colors, and color correction.</p>
+                        </div>
+                    </div>
+                    <div class="founder-card">
+                        <img src="assets/images/man.jpg" alt="Garry - Hairstylist" class="founder-image">
+                        <div class="founder-info">
+                            <h3 class="founder-name">Garry</h3>
+                            <p class="founder-role">Master Stylist</p>
+                            <p class="founder-bio">Garry is known for his precision cuts and modern styling techniques tailored to each client.</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="salon-info">
+                    <h3>Our Salon</h3>
+                    <p>Located in the heart of Madison, our salon offers a relaxing environment with:</p>
+                    <ul class="salon-features">
+                        <li>Private styling stations</li>
+                        <li>Organic hair care products</li>
+                        <li>Complimentary beverages</li>
+                        <li>Free WiFi for clients</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="booking" class="booking-section">
+            <h2 class="section-title">Book Your Appointment</h2>
+            <div class="booking-container">
+                <div class="booking-form">
+                    <form id="bookingForm">
+                        <div class="form-group">
+                            <label for="name">Full Name</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Phone</label>
+                            <input type="tel" id="phone" name="phone">
+                        </div>
+                        <div class="form-group">
+                            <label for="service">Service</label>
+                            <select id="service" name="service" required>
+                                <option value="">Select a service</option>
+                                <option value="coloring">Hair Coloring</option>
+                                <option value="cutting">Hair Cutting</option>
+                                <option value="styling">Hair Styling</option>
+                                <option value="makeup">Makeup</option>
+                                <option value="nails">Nails</option>
+                                <option value="full-package">Full Package</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="date">Preferred Date</label>
+                            <input type="date" id="date" name="date" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="time">Preferred Time</label>
+                            <input type="time" id="time" name="time" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="notes">Special Requests</label>
+                            <textarea id="notes" name="notes" rows="3"></textarea>
+                        </div>
+                        <button type="submit" class="cta-button">Submit Booking</button>
+                    </form>
+                </div>
+                <div class="booking-info">
+                    <h3>Contact Information</h3>
+                    <p><strong>Address:</strong> 123 Beauty Street, Madison, WI 53703</p>
+                    <p><strong>Phone:</strong> (608) 555-1234</p>
+                    <p><strong>Email:</strong> book@hairday.com</p>
+                    
+                    <h3>Business Hours</h3>
+                    <ul class="hours-list">
+                        <li>Monday: 9am - 6pm</li>
+                        <li>Tuesday: 9am - 8pm</li>
+                        <li>Wednesday: 9am - 6pm</li>
+                        <li>Thursday: 9am - 8pm</li>
+                        <li>Friday: 9am - 6pm</li>
+                        <li>Saturday: 9am - 4pm</li>
+                        <li>Sunday: Closed</li>
+                    </ul>
+                    
+                    <h3>Cancellation Policy</h3>
+                    <p>Please notify us at least 24 hours in advance if you need to cancel or reschedule your appointment.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="main-footer">
+        <div class="footer-container">
+            <img src="assets/images/hair-day-white.png" alt="Hair Day Logo" class="footer-logo">
+            <div class="contact-info">
+                <p class="footer-text">© 2023 Hair Day</p>
+                <p class="footer-text">123 Beauty Street, Madison, Wisconsin</p>
+                <p class="footer-text">book@hairday.com | (608) 555-1234</p>
+            </div>
+            <div class="social-links">
+                <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+                <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+                <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
