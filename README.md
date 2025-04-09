@@ -43,22 +43,7 @@ To run the site locally:
 3. Explore the interface, test the mobile menu, and try the booking form.
 
 ## Project Structure
-
-
-
-hair-day-homepage/ 
-├── index.html 
-├── styles.css 
-├── script.js 
-├── assets/ 
-│ └── images/ 
-│ ├── hair-day-white.png 
-│ ├── color-specialist.jpg 
-│ ├── modern-cuts.jpg 
-│ ├── makeup-nails.jpg 
-│ ├── salon-background.jpg 
-│ ├── woman.jpg 
-│ └── man.jpg
+![Homepage preview 3](https://raw.githubusercontent.com/pietronapoleao/hair-day-homepage/refs/heads/main/assets/images/structure.jpg)
 
 
 ## ✅ Requirements Completed
