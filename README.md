@@ -31,8 +31,8 @@ All styles are managed in `styles.css`, and the site behavior is enhanced with a
 
 ## 🔍 Preview
 
-![Homepage preview 1](https://github.com/pietronapoleao/hair-day-homepage/blob/main/assets/images/demo1.jpg)
-![Homepage preview 2](https://github.com/pietronapoleao/hair-day-homepage/blob/main/assets/images/demo2.jpg)
+![Homepage preview 1](https://raw.githubusercontent.com/pietronapoleao/hair-day-homepage/refs/heads/main/assets/images/demo1.png)
+![Homepage preview 2](https://raw.githubusercontent.com/pietronapoleao/hair-day-homepage/refs/heads/main/assets/images/demo2.png)
 
 ## How to Use
 
